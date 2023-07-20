@@ -13,7 +13,9 @@ const mapDBToModel = ({
   title,
   body,
   tags,
+  // eslint-disable-next-line camelcase
   createdAt: created_at,
+  // eslint-disable-next-line camelcase
   updatedAt: updated_at
 })
 
